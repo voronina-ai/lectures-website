@@ -1,0 +1,7 @@
+siteTitle="AI lectures"
+baseColor = "#884499"
+linkPrefix = "/"
+docPages = [
+  "/docs/",
+  "/docs/l-1/",
+]
