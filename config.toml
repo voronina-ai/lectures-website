@@ -4,4 +4,5 @@ linkPrefix = "/"
 docPages = [
   "/docs/",
   "/docs/l-1/",
+  "/docs/l-2/",
 ]
