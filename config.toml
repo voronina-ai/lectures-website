@@ -1,8 +1,9 @@
 siteTitle="AI lectures"
-baseColor = "#884499"
+baseColor = "#004d40"
 linkPrefix = "/"
 docPages = [
   "/docs/",
   "/docs/l-1/",
   "/docs/l-2/",
+  "/docs/l-3/",
 ]

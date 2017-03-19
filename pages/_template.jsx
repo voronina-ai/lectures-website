@@ -11,6 +11,7 @@ import { config } from 'config'
 // Import styles.
 import 'css/main.css'
 import 'css/github.css'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
 
 const { rhythm, adjustFontSizeTo } = typography
 
@@ -54,7 +55,7 @@ module.exports = React.createClass({
                   to={prefixLink('/')}
                   style={{
                     textDecoration: 'none',
-                    color: colors.fg,
+                    color: '#fff',
                     fontSize: adjustFontSizeTo('25.5px').fontSize,
                   }}
                 >
@@ -65,19 +66,19 @@ module.exports = React.createClass({
                 <a
                   style={{
                     float: 'right',
-                    color: colors.fg,
+                    color: '#fff',
                     textDecoration: 'none',
                     marginLeft: rhythm(1/2),
                   }}
                   href="https://github.com/voronina-ai"
                 >
-                  Github
+                  <i className="fa fa-github" style={{fontSize: '20pt'}} aria-hidden="true"></i>
                 </a>
                 <Link
                   to={prefixLink('/docs/')}
                   style={{
                     background: docsActive ? activeColors.bg : colors.bg,
-                    color: docsActive ? activeColors.fg : colors.fg,
+                    color: '#fff',
                     float: 'right',
                     textDecoration: 'none',
                     paddingLeft: rhythm(1/2),
@@ -88,6 +89,7 @@ module.exports = React.createClass({
                     marginTop: rhythm(-1),
                   }}
                 >
+                {/*docsActive ? activeColors.fg : colors.fg,*/}
                   Лекции
                 </Link>
               </Span>
