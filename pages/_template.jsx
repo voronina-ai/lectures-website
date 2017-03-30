@@ -68,6 +68,7 @@ module.exports = React.createClass({
                     float: 'right',
                     color: '#fff',
                     textDecoration: 'none',
+                    paddingRight: '20px',
                     marginLeft: rhythm(1/2),
                   }}
                   href="https://github.com/voronina-ai"
