@@ -47,8 +47,8 @@ title: '6. Логические модели представления знан
 Наиболее известные правила дедукции:
 - Modus Ponendo Ponens: `[A → B, A] → [B]`
 - Modus Tollendo Tollens: `[A → B, ¬B] → [¬A]`
-- Modus Ponendo Tollens: `[¬(A^B), A] → [¬B]`
-- Modus Tollendo Ponens: `[AvB, ¬A] → B`
+- Modus Ponendo Tollens: `[¬(A ^ B), A] → [¬B]`
+- Modus Tollendo Ponens: `[A v B, ¬A] → B`
 - Цепное правило: `[A → B, B → C] → [A → C]`
 <hr>
 
@@ -63,8 +63,8 @@ S := <Укрепление рубля>
 1. `P → Q`
 2. `(P or Q) → (S or R)`
 3. `(P → Q) → ((P or Q) → (R or Q))`
-4. `[1 and 3] → [(P or Q) → (R or Q)]`
-5. `[4 and 2] → [(P or Q) → (R or S)]`
+4. `[1 & 3] → [(P or Q) → (R or Q)]`
+5. `[4 & 2] → [(P or Q) → (R or S)]`
 
 <hr>
 
@@ -175,6 +175,6 @@ R(иванов, хорошо).
 4. Различие в наличии отрицания перед подвыражением
 5. Различие в расстановке скобок
 6. Различие в порядке следования подвыражений.
-  - F1: `A&B <=> B&A`
-  - `AvB <=> BvA`
+  - F1: `A & B <=> B & A`
+  - `A v B <=> B v A`
   - F2: `A → B <=> ¬B → ¬A`
